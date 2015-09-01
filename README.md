@@ -24,3 +24,6 @@ this plugin is not part of "The Grid" yet. You can add it to your uptime environ
     "description": "Pulls performance data from Exchange 2013 using powershell and WMI without an agent"
 }
 ]
+
+Assuming uptime is installed in C:\Program Files\Uptime Software\Uptime, you can use remove MS-exchange-2013-noagent.bat to remove the plugin after it has been installed if you need to do that. The command inside is a standard command used to administer uptime and is used for removing custom plugins added via "the-grid" or otherwise.
+
