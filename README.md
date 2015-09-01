@@ -10,8 +10,8 @@ this plugin is not part of "The Grid" yet. You can add it to your uptime environ
         "7.3","7.4","7.5"
     ],
     "name": "MS Exchange 2013 noagent",
-    "git_file_target": "http://sql2012:8888/PluginRepo/MS-Exchange-2013-noagent.zip",
-    "icon_url": "https://raw.githubusercontent.com/uptimesoftware/exchange2013-basic-monitor/d3ac708b4479313403e85384f0aa358ab3689702/img/icon.jpg",
+    "git_file_target": "https://github.com/uptimesoftware/MS-Exchange-2013-noagent/raw/master/dist/MS-Exchange-2013-noagent.zip",
+    "icon_url": "https://raw.githubusercontent.com/uptimesoftware/MS-Exchange-2013-noagent/master/img/icon.jpg",
     "upgrade_in_place": true,
     "requires_additional_setup": false,
     "requires_agent_scripts": false,
