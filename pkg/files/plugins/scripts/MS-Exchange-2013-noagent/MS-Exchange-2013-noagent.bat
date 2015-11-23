@@ -1,2 +1,2 @@
 @ECHO OFF
-Powershell.exe -f MS-Exchange-2013-noagent.ps1
+Powershell.exe -f MS-Exchange-2013-noagent1.1.ps1
