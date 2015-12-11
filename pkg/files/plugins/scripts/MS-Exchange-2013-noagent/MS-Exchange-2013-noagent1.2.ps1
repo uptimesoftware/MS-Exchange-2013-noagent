@@ -26,7 +26,7 @@ $collitems_members = $collitems | gm -membertype properties | select -expand Nam
 foreach ($objitem in $collitems) {
 	foreach ($objmember in $collitems_members) {
 		#Write-Host ("{0}({1}){2}{3}" -f $objmember,$objitem.Name,'.WMI_value ',$objitem.$objmember)
-		Write-Host $objmember,$objitem.$objmember
+		Write-Host ("{0}{1} {2}" -f 'SMTPRecv',$objmember,$objitem.$objmember)
 	}
 }
 
@@ -49,7 +49,7 @@ $collitems_members = $collitems | gm -membertype properties | select -expand Nam
 foreach ($objitem in $collitems) {
 	foreach ($objmember in $collitems_members) {
 		#Write-Host ("{0}({1}){2}{3}" -f $objmember,$objitem.Name,'.WMI_value ',$objitem.$objmember)
-		Write-Host $objmember,$objitem.$objmember
+		Write-Host ("{0}{1} {2}" -f 'SMTPSend',$objmember,$objitem.$objmember)
 	}
 }
 
@@ -72,7 +72,7 @@ $collitems_members = $collitems | gm -membertype properties | select -expand Nam
 foreach ($objitem in $collitems) {
 	foreach ($objmember in $collitems_members) {
 		#Write-Host ("{0}({1}){2}{3}" -f $objmember,$objitem.Name,'.WMI_value ',$objitem.$objmember)
-		Write-Host $objmember,$objitem.$objmember
+		Write-Host ("{0}{1} {2}" -f 'OWA',$objmember,$objitem.$objmember)
 	}
 }
 
@@ -118,7 +118,7 @@ $collitems_members = $collitems | gm -membertype properties | select -expand Nam
 foreach ($objitem in $collitems) {
 	foreach ($objmember in $collitems_members) {
 		#Write-Host ("{0}({1}){2}{3}" -f $objmember,$objitem.Name,'.WMI_value ',$objitem.$objmember)
-		Write-Host $objmember,$objitem.$objmember
+		Write-Host ("{0}{1} {2}" -f 'ApA_',$objmember,$objitem.$objmember)
 	}
 }
 
@@ -141,6 +141,6 @@ $collitems_members = $collitems | gm -membertype properties | select -expand Nam
 foreach ($objitem in $collitems) {
 	foreach ($objmember in $collitems_members) {
 		#Write-Host ("{0}({1}){2}{3}" -f $objmember,$objitem.Name,'.WMI_value ',$objitem.$objmember)
-		Write-Host $objmember,$objitem.$objmember
-	}
+		Write-Host ("{0}{1} {2}" -f 'ApDB_',$objmember,$objitem.$objmember)
 }
+	}
